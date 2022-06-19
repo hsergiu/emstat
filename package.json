@@ -1,0 +1,32 @@
+{
+  "name": "emstat",
+  "version": "1.0.1",
+  "description": "Counts reactions and gives insight",
+  "main": "src/emstat.js",
+  "scripts": {
+    "dev": "nodemon src/emstat.js",
+    "start": "node src/emstat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "count",
+    "statistics",
+    "reactions",
+    "emotes",
+    "store"
+  ],
+  "author": "hsergiu",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hsergiu/emstat.git"
+  },
+  "dependencies": {
+    "discord.js": "~11.6.4",
+    "dotenv": "~16.0.1",
+    "nodemon": "~2.0.15",
+    "sqlite": "~2.9.3"
+  }
+}

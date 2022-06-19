@@ -1,0 +1,10 @@
+version: '2'
+services:
+  emstat:
+    container_name: emstat
+    build: .
+    command: npm run dev
+    volumes:
+      - data:/home/app/emstat/data
+volumes:
+  data: { }
